@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" onclick="showPage('home')">Home</a>
+      <a href="#" onclick="showPage('about')">About</a>
+      <a href="#" onclick="showPage('privacy')">Privacy Policy</a>
+      <a href="#" onclick="showPage('disclaimer')">Disclaimer</a>
+    </nav>
+  </header>
+  <div id="home" class="page active">
+    <main>
+      <h1>Snake Game</h1>
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+      <button id="playButton" class="button">Play</button>
+      <button id="retryButton" class="button" style="display: none;">Retry</button>
+    </main>
+  </div>
+  <div id="about" class="page">
+    <h2>About</h2>
+    <p>Welcome to the Snake Game! This game is a simple and fun implementation of the classic snake game. The goal is to eat the red squares and grow your snake as long as possible without hitting the walls or yourself.</p>
+  </div>
+
+  <div id="privacy" class="page">
+    <h2>Privacy Policy</h2>
+    <p>Your privacy is important to us. This game does not collect any personal information from its users.</p>
+  </div>
+
+  <div id="disclaimer" class="page">
+    <h2>Disclaimer</h2>
+    <p>This game is provided "as is" without any guarantees or warranty. Play at your own risk.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Snake Game. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
